@@ -1,0 +1,220 @@
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    font-family: sans-serif;
+}
+.leftpart {
+    background-image: url(../images/nicole.jpg);
+    
+    background-size: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.leftpart header {
+    display: flex;
+}
+.leftpart img {
+    display: block;
+    width: 30px;
+    height: 35px;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+.leftpart h1 {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+     color: white;
+     text-transform: uppercase;
+     font-weight: bold;
+     font-size: 20px;
+}
+.leftpart .alignement {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+.leftpart main {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+
+}
+footer .menu  {
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.menu .menu_footer {
+    padding: 0 20px;
+}
+
+main .left_news {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+    color: white;
+    margin: 220px 25px;
+    border: none;
+    background-color:rgb(249,249,249,0.2);
+    text-shadow: 1px 1px 2px black;
+
+}
+
+.left_news-title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    align-content: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.left_news-title em  {
+   display: flex;
+    padding-top: 25px;
+    padding-left: 5px;
+    padding-right: 15px;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: italic;
+    
+}
+.left_news .end {
+    display: flex;
+    text-align: right;
+    align-content: flex-end;
+    padding: 25px 15px;
+}
+
+
+.rightpart {
+    display: flex;
+    background-color: #f9f9f9;
+    margin: auto;
+    height: 100vh;
+    width: 50%;
+    flex-direction: column;
+
+    overflow-y: scroll;
+}
+.rightpart h2 {
+    margin: 15px 25px 25px 25px;
+    display: flex;
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+}
+.rightpart .item {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;    
+    width: 50%;
+    border: 1px solid #f9f9f9;
+    box-sizing: border-box;
+    padding-bottom: 25px;
+
+    padding-left: 25px;
+}
+.rightpart .articles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.icon {
+    height: 20px;
+    width: 20px;
+}
+.item__icon-team {
+    display: flex;
+    background-color: #dc5e53;
+    align-items: center;
+    width: 40px;
+    height: 20px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 25px 0;
+    padding: 3px;
+}
+
+
+.item__icon-work {
+    display:flex;
+    background-color:#0766F0;
+    color: white;
+    width: 40px;
+    align-items: center;
+    height: 20px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size:13px;
+    margin: 25px 0;
+    padding: 3px;
+}
+
+.item___icon-news {
+    display:flex;
+    background-color: #98DC62;
+    align-items: center;
+    width:40px;
+    height: 20px;
+    text-transform: uppercase;
+    color:white;
+    border-radius: 3px;
+    font-weight:bold;
+    font-size: 13px;
+    margin: 25px 0;
+    padding: 3px;
+}
+
+.articles h3 {
+    font-weight: bold;
+    font-size: 18px;
+}
+.icon-style {
+    display: flex;
+    padding: 25px 0;
+    align-items: center;
+}
+
+.item__pseudo {
+    font-weight: bold;
+    font-size: 10px;
+}
+.icon-style .date {
+    font-size: 10px;
+    font-weight: normal;
+    color: #c1c1c1;
+}
+.icon-style .icon {
+    padding-right: 10px;
+}
+
+.continue {
+    font-weight: bold;
+    font-size: 15px;
+    color: #007bff;
+    text-decoration: underline;
+    padding-top: 15px;
+}
+.description {
+    font-size: 15px;
+}
